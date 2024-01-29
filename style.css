@@ -91,7 +91,7 @@ li::before{
     height: 17px;
     width: 17px;
     border-radius: 50%;
-    background-image: url(/images-2/unchecked.png); 
+    background-image: url(./images-2/unchecked.png); 
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -101,7 +101,7 @@ li::before{
     text-decoration: line-through;
 }
 .checked::before{
-    background-image: url(/images-2/checked.png);
+    background-image: url(./images-2/checked.png);
 }
 /* li button{
     position: absolute;
@@ -129,7 +129,7 @@ li i:hover{
     right: 0px;
     height: 22px;
     width: 22px;
-    background-image: url(/images-2/icons8-delete-24.png);
+    background-image: url(./images-2/icons8-delete-24.png);
     background-size: 15px;
     background-repeat: no-repeat;
     background-position: center;
@@ -142,7 +142,7 @@ li i:hover{
     right: 23px;
     height: 22px;
     width: 22px;
-    background-image: url(/images-2/icons8-create-26.png);
+    background-image: url(./images-2/icons8-create-26.png);
     background-size: 15px;
     background-repeat: no-repeat;
     background-position: center;
