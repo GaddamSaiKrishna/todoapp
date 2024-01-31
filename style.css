@@ -34,8 +34,9 @@ body button{
    border: none;
    border-radius: 5px;
    padding: 30px;
-    min-height:25vh;
-    width: 40vw;
+    /* min-height:25vh;
+    width: 40vw; */
+    width: 500px;
     max-height: fit-content;
 }
 input{
