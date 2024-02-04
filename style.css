@@ -27,11 +27,9 @@ body button{
     justify-content: center;
     align-items: center;
     height: 100vh;
-
 }
 .container{
     background-color: white;
-    /* background-color:black; */
    border: none;
    border-radius: 5px;
    padding: 30px;
@@ -64,6 +62,11 @@ input{
     background-color: rgb(255, 106, 0);
     border: none;
     cursor: pointer;
+    font-size: 15px;
+    transition:  .5s;
+}
+#add:hover{
+    transform: scale(1.1);
 }
 .list-items{
    padding-top: 20px;
@@ -87,8 +90,8 @@ li{
     padding-bottom: 10px;
     max-height: fit-content;
     overflow-wrap: break-word;
-    font-size: 0.8rem;
-
+    font-size: 0.9rem;
+    transition: .5s ;
 }
 li::before{
     content: ' ';
@@ -102,6 +105,9 @@ li::before{
     top: 12px;
     left: 10px;
 } 
+/* li:hover{
+    transform: scale(1.02);
+} */
 .checked{
     text-decoration: line-through;
 }
@@ -121,9 +127,9 @@ li::before{
     border: none;
     cursor: pointer;
     border-radius: 50%;
-    transition: all 5s ease-in;
+    /* transition: all 5s ease-in; */
 }
-.del:hover,.edit:hover{
+.del:hover{
     background-color: rgba(128, 128, 128, 0.146);
 }
 .edit{
@@ -139,5 +145,8 @@ li::before{
     border: none;
     cursor: pointer;
     border-radius: 50%;
-    transition: all 5s ease-in;
+    /* transition: all 5s ease-in; */
+}
+.edit:hover{
+    background-color: rgba(128, 128, 128, 0.146);
 }
