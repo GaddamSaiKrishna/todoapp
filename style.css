@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-/* *{
-    background: linear-gradient(45deg,#010758,#490d61);
-    height: 100vh;
-} */
-
 body{
     background: linear-gradient(45deg,#010758,#490d61);
     background: linear-gradient(135deg,#da66e9,#4ddee6);
@@ -13,7 +8,6 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    /* color: white; */
 }
 body li{
     font-family: 'Poppins', sans-serif;
@@ -23,7 +17,6 @@ body button{
 }
 .main{
     display: flex;
-    /* padding: 130px; */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -33,9 +26,7 @@ body button{
    border: none;
    border-radius: 5px;
    padding: 30px;
-    /* min-height:25vh;
-    width: 40vw; */
-    width: 500px;
+    width: 600px;
     max-height: fit-content;
 }
 h3{
@@ -47,12 +38,10 @@ input{
     margin-right: 15px;
     outline: none;
     background-color: rgba(128, 128, 128, 0.146);
-    /* background-color: rgba(245, 245, 245, 0.453); */
     border-radius: 3px;
     border: none;
     padding: 8px;
     color: black;
-    
 }
 #add{
     width: 4rem;
@@ -70,7 +59,6 @@ input{
 }
 .list-items{
    padding-top: 20px;
-   /* width: 35vw; */
 }
 li{
     list-style: none;
@@ -79,7 +67,6 @@ li{
     padding-top: 10px;
     padding-left: 35px;
     padding-right: 25px;
-    /* padding: 12px 8px 12px 50px; */
     position: relative;
     left: 0px;
     margin-left: 0px;
@@ -105,9 +92,6 @@ li::before{
     top: 12px;
     left: 10px;
 } 
-/* li:hover{
-    transform: scale(1.02);
-} */
 .checked{
     text-decoration: line-through;
 }
@@ -127,9 +111,8 @@ li::before{
     border: none;
     cursor: pointer;
     border-radius: 50%;
-    /* transition: all 5s ease-in; */
 }
-.del:hover{
+.del:hover,.edit:hover{
     background-color: rgba(128, 128, 128, 0.146);
 }
 .edit{
@@ -145,8 +128,9 @@ li::before{
     border: none;
     cursor: pointer;
     border-radius: 50%;
-    /* transition: all 5s ease-in; */
 }
-.edit:hover{
-    background-color: rgba(128, 128, 128, 0.146);
+@media(max-width:414){
+    .container{
+        width: 90%;
+    }
 }
